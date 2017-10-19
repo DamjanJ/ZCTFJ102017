@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "113457022140",
+    "firebase_url": "https://jokes-6c7b9.firebaseio.com",
+    "project_id": "jokes-6c7b9",
+    "storage_bucket": "jokes-6c7b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113457022140:android:298475af61fa45d8",
+        "android_client_info": {
+          "package_name": "com.funny.bjokes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113457022140-4mqss0qpccph8n7usa2b1rta1md9vuji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANZYMqcuV8YiYWawGQ7_-gpJL1f076BJo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

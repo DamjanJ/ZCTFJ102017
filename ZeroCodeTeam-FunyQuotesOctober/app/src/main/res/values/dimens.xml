@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="gallery_item_height">120.0dip</dimen>
+    <dimen name="gallery_item_padding">1.0dip</dimen>
+    <dimen name="gallery_text_margin">1.0dip</dimen>
+    <dimen name="gallery_text_padding">5.0dip</dimen>
+
+    <dimen name="gallery_list_margin">2.0dip</dimen>
+    <dimen name="gallery_list_spacing">2.0dip</dimen>
+
+    <dimen name="gallery_detail_padding">1.0dip</dimen>
+
+    <dimen name="function_button_padding">10.0dip</dimen>
+    <dimen name="function_button_width">50.0dip</dimen>
+    <dimen name="function_button_height">45.0dip</dimen>
+    <dimen name="function_button_height_2">50.0dip</dimen>
+
+    <dimen name="ads_height">50.0dip</dimen>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/frame_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/RlPager"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_gravity="center"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:id="@+id/LayoutPager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/ads_google"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId= "ca-app-pub-4072986826476544/6385820581" />
+
+
+            <com.funny.bjokes.components.HackyViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="0.65" />
+
+
+            <TextView
+                android:id="@+id/textRating"
+                style="@style/PagerRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/menubar_bg"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/buttonLeft"
+            android:layout_width="@dimen/function_button_width"
+            android:layout_height="@dimen/function_button_height"
+            android:background="@drawable/bg_button_select"
+            android:onClick="onClickLeft"
+            android:src="@drawable/ic_arrow_left" />
+
+        <View
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+
+        <ImageButton
+            android:id="@+id/buttonLike"
+            android:layout_width="@dimen/function_button_width"
+            android:layout_height="@dimen/function_button_height"
+            android:background="@drawable/bg_button_select"
+            android:onClick="onClickLike"
+            android:padding="@dimen/function_button_padding"
+            android:src="@drawable/ic_menu_like" />
+
+        <ImageButton
+            android:id="@+id/buttonShare"
+            android:layout_width="@dimen/function_button_width"
+            android:layout_height="@dimen/function_button_height_2"
+            android:background="@drawable/bg_button_select"
+            android:onClick="onClickShare"
+            android:padding="@dimen/function_button_padding"
+            android:src="@drawable/ic_menu_share" />
+
+        <ImageButton
+            android:id="@+id/buttonDownload"
+            android:layout_width="@dimen/function_button_width"
+            android:layout_height="@dimen/function_button_height_2"
+            android:background="@drawable/bg_button_select"
+            android:onClick="onClickDownload"
+            android:padding="@dimen/function_button_padding"
+            android:src="@android:drawable/stat_sys_download" />
+
+        <ImageButton
+            android:id="@+id/buttonRate"
+            android:layout_width="@dimen/function_button_width"
+            android:layout_height="@dimen/function_button_height_2"
+            android:background="@drawable/bg_button_select"
+            android:onClick="onClickRate"
+            android:padding="@dimen/function_button_padding"
+            android:src="@drawable/ic_menu_star" />
+
+        <ImageButton
+            android:id="@+id/buttonDislike"
+            android:layout_width="@dimen/function_button_width"
+            android:layout_height="@dimen/function_button_height"
+            android:background="@drawable/bg_button_select"
+            android:onClick="onClickDislike"
+            android:padding="@dimen/function_button_padding"
+            android:src="@drawable/ic_menu_dislike" />
+
+        <View
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+
+        <ImageButton
+            android:id="@+id/buttonRight"
+            android:layout_width="@dimen/function_button_width"
+            android:layout_height="@dimen/function_button_height"
+            android:background="@drawable/bg_button_select"
+            android:onClick="onClickRight"
+            android:src="@drawable/ic_arrow_right" />
+    </LinearLayout>
+
+</LinearLayout>

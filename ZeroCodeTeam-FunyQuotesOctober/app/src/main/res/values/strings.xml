@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Funny Quotes</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="download_message">Image download complete.</string>
+    <string name="download_message_loading">Downloading...</string>
+
+    <string name="cache_cleared">Cache Cleared</string>
+    <string name="update_gallery_failed">Failed to update gallery!</string>
+
+
+    <string name="google_ads_bannner_id">ca-app-pub-4072986826476544/6385820581</string>
+    <string name="google_ads_interstitial_id">ca-app-pub-4072986826476544/9941922215</string>
+
+
+
+    <string name="zct_test_ads_banner_id">ca-app-pub-1869816756243571/5760872734</string>
+
+    <string name="zct_ads_banner_id">ca-app-pub-4072986826476544/6385820581</string>
+    <string name="zct_ads_interstitial_id">ca-app-pub-4072986826476544/9941922215</string>
+
+    <string name="cant_share">Can\'t share image, no permission granted.</string>
+    <string name="cant_download">Can\'t download image, no permission granted.</string>
+    <string name="refresh">Refresh</string>
+
+</resources>
